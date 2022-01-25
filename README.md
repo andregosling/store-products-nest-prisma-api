@@ -155,7 +155,7 @@ curl --request DELETE \
 ```json
 {
     "id": 1,
-    "name": "Produto01",
+    "name": "newProduct01",
     "ammount": 5
 }
 ```
