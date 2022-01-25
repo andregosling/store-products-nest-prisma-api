@@ -1,7 +1,7 @@
 
 # Produtos de uma loja com NestJs e Prisma
 
-CRUD criado com NestJS e Prisma para atualizar e listar os produtos de uma loja.
+CRUD criado com NestJS e Prisma para atualizar e listar os produtos de uma loja
 
 
 # Instalação
