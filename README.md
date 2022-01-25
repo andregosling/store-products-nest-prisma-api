@@ -9,17 +9,17 @@ CRUD criado com NestJS e Prisma para atualizar e listar os produtos de uma loja
 #### Clonando o repositório
 
 ```bash
-git clone https://github.com/andregosling/store-products-nest-prisma-api.git
+$ git clone https://github.com/andregosling/store-products-nest-prisma-api.git
 
-cd store-products-nest-prisma-api
+$ cd store-products-nest-prisma-api
 
-code . # Opcional, usado para abrir o Visual Studio Code no projeto
+$ code . # Opcional, usado para abrir o Visual Studio Code no projeto
 ```
 
 #### Instalando as dependências
 
 ```bash
-npm install (or yarn install)
+$ npm install (or yarn install)
 ```
 
 #### Criando o banco de dados
@@ -33,20 +33,20 @@ CREATE DATABASE `store-nest-products` /*!40100 COLLATE 'utf8mb4_general_ci' */
 #### Sincronizando o banco de dados ao prisma
 
 ```bash
-yarn prisma db push
+$ yarn prisma db push
 ```
 
 # Execução
 
 ```bash
 # development
-$ npm run start
+$ yarn start
 
 # watch mode
-$ npm run start:dev
+$ yarn start:dev
 
 # production mode
-$ npm run start:prod
+$ yarn build && yarn start:prod
 ```
 
 # Rest API
