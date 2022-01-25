@@ -19,7 +19,7 @@ $ code . # Opcional, usado para abrir o Visual Studio Code no projeto
 #### Instalando as dependências
 
 ```bash
-$ npm install (or yarn install)
+$ yarn install # using yarn. to install, use: npm install --global yarn
 ```
 
 #### Criando o banco de dados
