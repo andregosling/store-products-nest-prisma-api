@@ -16,7 +16,7 @@ cd store-products-nest-prisma-api
 code . # Opcional, usado para abrir o Visual Studio Code no projeto
 ```
 
-####  Instalando as dependências
+#### Instalando as dependências
 
 ```bash
 npm install (or yarn install)
@@ -28,6 +28,12 @@ Certifique-se de estar com o MySQL iniciado no XAMPP.
 
 ```sql
 CREATE DATABASE `store-nest-products` /*!40100 COLLATE 'utf8mb4_general_ci' */
+```
+
+#### Sincronizando o banco de dados ao prisma
+
+```bash
+yarn prisma db push
 ```
 
 # Execução
@@ -120,7 +126,7 @@ curl --request GET \
 curl --request PATCH \
   --url http://localhost:3000/products/1 \
   --header 'Content-Type: application/json' \
-  --data '{"name": "Produto01"}'
+  --data '{"name": "newProduct01"}'
 ```
 
 ### Response 
@@ -128,7 +134,7 @@ curl --request PATCH \
 ```json
 {
     "id": 1,
-    "name": "Produto01",
+    "name": "newProduct01",
     "ammount": 5
 }
 ```
