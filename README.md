@@ -9,6 +9,8 @@ CRUD criado com NestJS e Prisma para atualizar e listar os produtos de uma loja.
 
 ```bash
 git clone https://github.com/andregosling/store-products-nest-prisma-api.git
+
+cd store-products-nest-prisma-api
 ```
 
 ####  Instalando as dependências
