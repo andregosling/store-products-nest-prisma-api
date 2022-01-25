@@ -46,8 +46,6 @@ export class ProductsService {
 
     if (!findanswer) throw new BadRequestException('Product not found.');
 
-    console.log(ammount);
-
     if (!name && !ammount)
       throw new BadRequestException('Name or ammount are required.');
 
